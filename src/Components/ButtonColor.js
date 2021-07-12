@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ButtonColor() {
     const [textColor,setTextColor]=React.useState()
-
+    
     const colorSubmit=(color)=>{
              setTextColor(color)   
     }
